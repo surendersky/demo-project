@@ -1,0 +1,9 @@
+pipeline {
+    agent none 
+    stages {
+        stage('Example Test') {
+                echo 'Hello World'
+                sh 'touch surender.html'
+        }
+    }
+}
